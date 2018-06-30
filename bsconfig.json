@@ -1,0 +1,21 @@
+{
+  "name": "left-pad",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "entries": [
+    {
+      "backend": "bytecode",
+      "main-module": "Index",
+      "output-name": "left-pad"
+    },
+    {
+      "backend": "native",
+      "main-module": "Index",
+      "output-name": "left-pad"
+    }
+  ],
+  "refmt": 3
+}
